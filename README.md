@@ -21,7 +21,7 @@ This website helps you to share any data as a shortened URL and you can also sho
 
 ### Backend
  A backend is already hosted on Heroku which will run automatically when you clone the code.
- To setup your own backend, follow [https://github.com/shiv123-max/LinkSharingServer](this).
+ To setup your own backend, follow [https://github.com/shiv123-max/LinkSharingServer](https://github.com/shiv123-max/LinkSharingServer).
  
 ## Screenshots
 
