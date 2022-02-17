@@ -1,0 +1,98 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e3e3e3;
+  color: black;
+  /* background-color: rgb(27, 27, 27); */
+}
+.App {
+  text-align: center;
+}
+
+.editorContainer {
+  color: black;
+  width: 80vw;
+  margin-bottom: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+input {
+  border-style: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  /* background-color: gray; */
+  color: black;
+}
+
+.expireScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.modalText {
+  color: black;
+  text-align: center;
+}
+.modalInput {
+  border: 1px solid rgb(39, 39, 39);
+  font-size: 1.2rem;
+}
+.modal {
+  border-radius: 20px;
+}
+.generating {
+  color: gray;
+  margin: 20px;
+}
+.expireScreen input {
+  font-size: 1.5rem;
+}
+.expireScreen .btn {
+  font-size: 1.5rem;
+  margin: 25px;
+  padding: 15px 40px 15px 40px;
+}
+.expireScreen h2 {
+  font-size: 1.5rem;
+}
+.viewPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textContainer {
+  width: 80%;
+  min-height: 45vh;
+  background-color: #ffefaf;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  font-size: 1.2rem;
+}
+.viewPage .btn {
+  padding: 15px 25px;
+  font-size: 1.3rem;
+  min-width: 200px;
+}
+.modalBtnContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.editorContainer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.viewPage .top {
+  margin-top: 30px;
+}

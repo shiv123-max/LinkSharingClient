@@ -1,0 +1,120 @@
+.filesContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.fileCard {
+  display: flex;
+  margin: 10px;
+  padding: 0 20px 0px 20px;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+  min-height: 200px;
+  width: 100%;
+  max-width: 250px;
+  background-color: #ffefaf;
+  border-radius: 10px;
+}
+
+.fileCard:hover {
+  box-shadow: 0px 0px 10px 1px rgba(143, 143, 143, 1);
+}
+
+.btn {
+  margin: 15px;
+  border-style: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgb(75, 75, 75);
+  border-radius: 10px;
+  color: white;
+}
+
+.save {
+  background-color: rgb(34, 180, 34);
+}
+
+.save:hover {
+  background-color: rgb(29, 153, 29);
+}
+
+.encrypt {
+  background-color: rgb(185, 185, 54);
+}
+
+.encrypt:hover {
+  background-color: rgb(161, 161, 47);
+}
+
+.allFiles {
+ background-color: rgb(75, 75, 207);
+}
+
+.allFiles:hover {
+  background-color: rgb(68, 68, 182);
+}
+
+.delete {
+  background-color: rgb(206, 36, 36);
+  color: white;
+}
+
+.renew {
+  color: white;
+  background-color: rgb(172, 172, 14);
+}
+
+.renew:hover {
+  background-color: rgb(161, 159, 14);
+}
+
+.delete:hover {
+  background-color: rgb(180, 33, 33);
+}
+
+.fileCard h4 {
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin: 0;
+  display: flex;
+  /* margin-top: 60px; */
+  text-decoration: underline;
+}
+
+.fileName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 100%;
+}
+
+.fileCard h4:hover {
+  color: rgb(12, 88, 114);
+}
+
+.AllFilesPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link button {
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: rgb(75, 75, 207);
+  color: white;
+}
+.link button:hover {
+  box-shadow: 0px 0px 10px 1px rgba(143, 143, 143, 1);
+}

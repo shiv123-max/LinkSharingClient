@@ -1,0 +1,49 @@
+.logPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logContainer {
+  width: 50%;
+  max-width: 800px;
+  background-color: #ffefaf;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgb(206, 202, 202);
+  padding: 10px;
+  color: black;
+}
+ .rowHeading {
+    display: flex;
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgb(138, 135, 135);
+    padding: 10px;
+    color: black;
+ }
+
+ .snoHeading {
+     margin-right: 100px;
+     font-weight: 700;
+ }
+
+ .dateHeading {
+     margin-right: 260px;
+     font-weight: 700;
+ }
+
+ .ipHeading {
+     font-weight: 700;
+ }
