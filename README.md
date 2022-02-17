@@ -1,6 +1,6 @@
-# Introduction of Website
+# Introduction of Link Sharer App
 
-This website helps you to share any data as a shortened URL and you can also shorten a very long URL
+This website helps you to share any data as a shortened URL and you can also shorten a very long URL.
 
 
 
