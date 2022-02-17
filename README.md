@@ -31,6 +31,10 @@ This website helps you to share any data as a shortened URL and you can also sho
  On this page, you can enter data, encrypt it and save it as well.
 
 ### View Data Page
+
+
+
+
   ![DataPage](https://i.ibb.co/T0Kyvbw/dataPage.jpg)
   
   Here, you can see the data and also share it by shortening the URL.
@@ -44,4 +48,8 @@ This website helps you to share any data as a shortened URL and you can also sho
   ![AccessLogs](https://i.ibb.co/zZg85jc/access-Logs-Page.jpg)
   
   On this page, you can see all the access logs - when and by which IP address the specific data file was accessed.
+  
+## Demo Video
+
+https://user-images.githubusercontent.com/56493775/154547750-26ec92ab-7294-45e0-a9d5-f5d036e8f097.mp4
 
