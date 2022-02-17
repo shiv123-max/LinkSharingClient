@@ -1,1 +1,1 @@
-export const BACKEND_SERVER = "http://localhost:9000/api";
+export const BACKEND_SERVER = "https://linksshares.herokuapp.com/api";
