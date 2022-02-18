@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import { BACKEND_SERVER } from "../URLConfig";
+import ClipLoader from "react-spinners/ClipLoader";
 
 const ViewFile = () => {
   const [fdata, setFData] = useState(null);
@@ -205,7 +206,10 @@ const ViewFile = () => {
                     </div>
                   ) : (
                     <div>
-                      <h3 className="modalText generating">Generating..</h3>
+                      <h3 className="modalText generating">
+                        Generating... <br />
+                        <ClipLoader color={"black"} size={20} />
+                      </h3>
                     </div>
                   )}
                 </p>
@@ -218,7 +222,7 @@ const ViewFile = () => {
     } else {
       return (
         <div className="expireScreen">
-          <h1 className="generating">Loading...</h1>
+          <ClipLoader color={"black"} size={50} />
         </div>
       );
     }

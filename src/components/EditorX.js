@@ -8,6 +8,7 @@ import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import axios from "axios";
 import { BACKEND_SERVER } from "..//URLConfig";
+import ClipLoader from "react-spinners/ClipLoader";
 
 const EditorX = () => {
   const [text, setText] = useState("");
@@ -143,7 +144,7 @@ const EditorX = () => {
       const res = await response.json();
       setIsEncrypted(true);
       setEncryptedText(res.result);
-      toast.success("Encrypted Successfully !", {
+      toast.success("Encrypted Successfully! Please remember the key", {
         position: "top-right",
         autoClose: 3000,
         hideProgressBar: false,
@@ -160,7 +161,9 @@ const EditorX = () => {
   return (
     <div>
       <div className="viewPage">
-        <h1 style={{ padding: "0", margin: "0", marginTop:"20px" }}>Link Sharer</h1>
+        <h1 style={{ padding: "0", margin: "0", marginTop: "20px" }}>
+          Link Sharer
+        </h1>
         <div className="editorContainer">
           <div className="top">
             <div>
@@ -213,7 +216,6 @@ const EditorX = () => {
       </div>
       <Modal open={open} onClose={onCloseModal} center>
         <h2 className="modalText">Share</h2>
-        <h4>Please remember this key</h4>
         {isClicked ? (
           shortURL ? (
             <div>
@@ -240,7 +242,10 @@ const EditorX = () => {
             </div>
           ) : (
             <div>
-              <h3 className="modalText generating">Generating..</h3>
+              <h3 className="modalText generating">
+                Generating.. <br />
+                <ClipLoader color={"black"} size={20} />
+              </h3>
             </div>
           )
         ) : (
