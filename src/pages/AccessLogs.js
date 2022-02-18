@@ -32,10 +32,10 @@ const AccessLogs = () => {
         </div>
         <h1>Access Logs - {fdata.name}</h1>
         <div className="logContainer">
-          <div className="rowHeading">
-            <div className="snoHeading"> S No.</div>
-            <div className="dateHeading"> Time of Access</div>
-            <div className="ipHeading">IP Address</div>
+          <div className="row heading">
+            <div className="sno"> S No.</div>
+            <div className="date"> Time of Access</div>
+            <div className="ip">IP(IPv4/IPv6) Address</div>
           </div>
           {fdata.accessLogs.map((item, index) => {
             return (

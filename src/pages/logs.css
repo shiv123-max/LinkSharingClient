@@ -7,8 +7,7 @@
 }
 
 .logContainer {
-  width: 50%;
-  max-width: 800px;
+  width: 900px;
   background-color: #ffefaf;
   border-radius: 10px;
 }
@@ -16,7 +15,7 @@
 .row {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 800px;
   margin: 10px;
   margin-right: 20px;
   font-size: 1.1rem;
@@ -24,26 +23,28 @@
   padding: 10px;
   color: black;
 }
- .rowHeading {
-    display: flex;
-    margin: 10px;
-    margin-right: 20px;
-    font-size: 1.1rem;
-    border-bottom: 1px solid rgb(138, 135, 135);
-    padding: 10px;
-    color: black;
- }
 
- .snoHeading {
-     margin-right: 100px;
-     font-weight: 700;
- }
+.heading {
+  font-weight: 700;
+}
+ 
+.sno {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- .dateHeading {
-     margin-right: 260px;
-     font-weight: 700;
- }
+.date {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- .ipHeading {
-     font-weight: 700;
- }
+.ip {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
